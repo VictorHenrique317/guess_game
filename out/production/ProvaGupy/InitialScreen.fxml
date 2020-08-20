@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="375.0" style="-fx-background-color: #EA1E63;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.InitialController">
+   <center>
+      <VBox alignment="TOP_CENTER" fillWidth="false" prefHeight="433.0" prefWidth="255.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label prefHeight="102.0" prefWidth="217.0" text="Selecione o tamanho do display de LED:" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Label>
+            <VBox spacing="10.0">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onFirstSize" prefHeight="54.0" prefWidth="214.0" text="0,6x">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#onSecondSize" prefHeight="54.0" prefWidth="214.0" text="0,7x">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#onThirdSize" prefHeight="54.0" prefWidth="214.0" text="0,8x">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#onFourthSize" prefHeight="54.0" prefWidth="214.0" text="0,9x">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#onFifthSize" prefHeight="54.0" prefWidth="214.0" text="1x">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#onSixthSize" prefHeight="54.0" prefWidth="214.0" text="1,1x">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </center>
+   <top>
+      <HBox prefHeight="42.0" prefWidth="375.0" style="-fx-background-color: #9C1442;" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>

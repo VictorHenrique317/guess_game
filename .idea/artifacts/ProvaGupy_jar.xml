@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ProvaGupy:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProvaGupy_jar</output-path>
+    <root id="archive" name="ProvaGupy.jar">
+      <element id="module-output" name="ProvaGupy" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/.idea/libraries/javaFX/src.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/.idea/libraries/javaFX/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/.idea/libraries/javaFX/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/.idea/libraries/javaFX/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/.idea/libraries/javaFX/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/.idea/libraries/javaFX/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/.idea/libraries/javaFX/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/.idea/libraries/javaFX/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/.idea/libraries/javaFX/javafx.graphics.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

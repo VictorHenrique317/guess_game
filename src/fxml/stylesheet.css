@@ -1,0 +1,3 @@
+#textSize:hover, #sendButton:hover, #textColor:hover{
+    -fx-cursor:hand;
+}

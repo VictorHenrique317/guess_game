@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPane" minHeight="667.0" minWidth="375.0" stylesheets="stylesheet.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.Controller">
+   <center>
+      <VBox alignment="CENTER" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER">
+               <children>
+                  <Label fx:id="resultLabel" alignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <HBox fx:id="numberBox" alignment="CENTER" prefHeight="180.0" prefWidth="375.0">
+                     <children>
+                        <VBox fx:id="firstDigit" alignment="CENTER" prefHeight="0.0" prefWidth="100.0">
+                           <children>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" translateY="59.5">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" translateY="-20.0">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" translateX="29.0" translateY="-14.5">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" translateX="29.0" translateY="18.0">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" translateX="0.5" translateY="22.0">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" translateX="-29.0" translateY="-27.0">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" translateX="-29.0" translateY="-107.0">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                        <VBox fx:id="secondDigit" alignment="CENTER" prefHeight="0.0" prefWidth="100.0">
+                           <children>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" translateY="59.5">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" translateY="-20.0">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" translateX="29.0" translateY="-14.5">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" translateX="29.0" translateY="18.0">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" translateX="0.5" translateY="22.0">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" translateX="-29.0" translateY="-27.0">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" translateX="-29.0" translateY="-107.0">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                        <VBox fx:id="thirdDigit" alignment="CENTER" prefHeight="0.0" prefWidth="100.0">
+                           <children>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" translateY="59.5">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" translateY="-20.0">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" translateX="29.0" translateY="-14.5">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" translateX="29.0" translateY="18.0">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" translateX="0.5" translateY="22.0">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" translateX="-29.0" translateY="-27.0">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="23.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" translateX="-29.0" translateY="-107.0">
+                                 <image>
+                                    <Image url="file:/C:/Java%20Programs/ProvaGupy/src/images/full_segment.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <Button fx:id="newRound" mnemonicParsing="false" onAction="#onNewRound" text="Nova partida" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </center>
+   <top>
+      <HBox alignment="CENTER_LEFT" prefHeight="85.0" prefWidth="375.0" style="-fx-background-color: #EA1E63;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="27.0" prefWidth="209.0" text="Qual é o número?" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="23.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <HBox alignment="CENTER" minWidth="144.8" spacing="20.0">
+               <children>
+                  <VBox fx:id="textSizeBox" alignment="CENTER">
+                     <children>
+                        <ImageView fx:id="textSize" fitHeight="27.0" fitWidth="30.0" onMouseClicked="#onTextSize" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/format_size-24px.png" />
+                           </image>
+                        </ImageView>
+                        <ComboBox fx:id="comboBox" onAction="#onComboBox" prefHeight="26.0" prefWidth="38.0" promptText="Tamanhos" />
+                     </children>
+                  </VBox>
+                  <VBox fx:id="colorBox" alignment="CENTER">
+                     <children>
+                        <ImageView fx:id="textColor" fitHeight="27.0" fitWidth="30.0" onMouseClicked="#onTextColor" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/palette-24px.png" />
+                           </image>
+                        </ImageView>
+                        <ColorPicker fx:id="colorPicker" onAction="#onColorPicker" prefHeight="26.0" prefWidth="89.0" />
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets right="5.0" />
+               </padding>
+            </HBox>
+         </children>
+      </HBox>
+   </top>
+   <bottom>
+      <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="TOP_RIGHT" spacing="5.0">
+               <children>
+                  <TextField fx:id="textField" onKeyReleased="#onKeyReleased" prefHeight="26.0" prefWidth="250.0" promptText="Digite o palpite" />
+                  <Label fx:id="digitCounter" />
+               </children>
+            </VBox>
+            <Button fx:id="sendButton" mnemonicParsing="false" onAction="#onSend" prefHeight="26.0" prefWidth="90.0" text="Enviar" />
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets top="20.0" />
+         </padding>
+      </HBox>
+   </bottom>
+</BorderPane>
